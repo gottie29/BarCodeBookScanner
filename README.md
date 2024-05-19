@@ -11,7 +11,7 @@ Hardware:
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/96589bf4-8a36-4747-9c58-302b8a19605f)
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/825d9162-d65c-4c04-8ca0-bdce371cf33f)
 
-![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/1c4b7233-21b2-4268-9956-c6390e7469e6)
+![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/be2b2e3f-1e52-4c40-a0ec-adcc1a04ebc6)
 
 
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/e3982a49-8994-4a55-a85a-8240e08d6be3)
