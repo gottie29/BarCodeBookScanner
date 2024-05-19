@@ -1,0 +1,26 @@
+import RPi.GPIO as GPIO
+import time
+LED_PIN_ROT = 16
+LED_PIN_GELB = 20
+LED_PIN_GRUEN = 21
+
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(LED_PIN_ROT, GPIO.OUT)
+GPIO.setup(LED_PIN_GELB, GPIO.OUT)
+GPIO.setup(LED_PIN_GRUEN, GPIO.OUT)
+
+
+GPIO.output(LED_PIN_ROT, GPIO.HIGH)
+time.sleep(2)
+GPIO.output(LED_PIN_ROT, GPIO.LOW)
+
+GPIO.output(LED_PIN_GELB, GPIO.HIGH)
+time.sleep(2)
+GPIO.output(LED_PIN_GELB, GPIO.LOW)
+
+GPIO.output(LED_PIN_GRUEN, GPIO.HIGH)
+time.sleep(2)
+GPIO.output(LED_PIN_GRUEN, GPIO.LOW)
+
+GPIO.cleanup()
