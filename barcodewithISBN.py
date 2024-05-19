@@ -7,14 +7,18 @@ import urllib.request
 import json
 import textwrap
 
+###############################
+# SET the GPIO Pins for LED
+###############################
 LED_PIN_ROT = 16
 LED_PIN_GELB = 20
 LED_PIN_GRUEN = 21
 
-item_count=0   #For storing the no. of scanned items
-scode="" #variable that will contain the scan code
-
-
+################################
+# SETTINGS for bar code scanner
+# Use lsusb and dmesg | grep tty
+# to find the right USB port
+################################
 BAUDRATE= 19200
 DEVICE = '/dev/ttyACM0'
 
