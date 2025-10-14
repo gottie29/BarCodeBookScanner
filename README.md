@@ -15,3 +15,17 @@ Hardware:
 
 
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/e3982a49-8994-4a55-a85a-8240e08d6be3)
+
+# Für OLED i2c-Interface in raspi-config aktivieren:
+---------
+<code>
+# I2C aktivieren
+sudo raspi-config   # Interface Options → I2C → Enable
+
+# libs installieren
+sudo apt-get update
+sudo apt-get install -y python3-pip python3-pil i2c-tools
+pip3 install --upgrade luma.oled
+# Test: sollte ein Device zeigen (typisch 0x3C)
+sudo i2cdetect -y 1
+</code>
