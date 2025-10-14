@@ -18,15 +18,14 @@ Hardware:
 
 # Für OLED i2c-Interface in raspi-config aktivieren:
 ---------
-<code>
-#I2C aktivieren
+## I2C aktivieren
 sudo raspi-config   # Interface Options → I2C → Enable
 
-#libs installieren
+<code>
 sudo apt-get update
 sudo apt-get install -y python3-pip python3-pil i2c-tools
 pip3 install --upgrade luma.oled
-
-#Test: sollte ein Device zeigen (typisch 0x3C)
-sudo i2cdetect -y 1
 </code>
+
+## Test: sollte ein Device zeigen (typisch 0x3C)
+sudo i2cdetect -y 1
