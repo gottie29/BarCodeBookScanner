@@ -24,7 +24,7 @@ sudo raspi-config   # Interface Options → I2C → Enable
 <code>
 sudo apt-get update
 sudo apt-get install -y python3-pip python3-pil i2c-tools
-pip3 install --upgrade luma.oled
+pip3 install --upgrade luma.oled --break-system-packages
 </code>
 
 ## Test: sollte ein Device zeigen (typisch 0x3C)
