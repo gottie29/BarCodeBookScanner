@@ -8,6 +8,9 @@ Hardware:
 - Switch toggle
 - LED Light
 
+WICHTIG: Damit das Script funktioniert muss der Scanner auf USC-COM gesetzt werden. Das geht über das Manual mit dem entsprechenden Barcode dort.
+
+
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/96589bf4-8a36-4747-9c58-302b8a19605f)
 ![image](https://github.com/gottie29/BarCodeBookScanner/assets/67120052/825d9162-d65c-4c04-8ca0-bdce371cf33f)
 
